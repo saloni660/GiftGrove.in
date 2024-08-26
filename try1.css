@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  border-radius: 2px;
+}
+::selection{
+  /* color: #f46fd3; */
+  background: #fff;
+}
+nav{
+  position: absolute;
+  background: #f2f1f2;
+  width: 100%;
+  padding: 10px ;
+  
+}
+nav .menu{
+  /* max-width: 1250px; */
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:20px;
+  background-color: rgb(247, 127, 225);
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #f70808;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu .logo img{
+    width:100%;
+    
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+  
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #f70d0d;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  /* transition: all 0.3s ease; */
+}
+.menu ul li a:hover{
+  background:rgba(208, 208, 202, 0.815);
+  color: black;
+}
+.img {
+  background: url('img3.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  
+  /* margin:50px; */
+}
+.img img{
+    width:1450px;
+    height:740px;
+    z-index: 1000;
+    margin-left: 10px;
+}
+
+
+.center {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+.logo{
+    font-family: 'Calligraffitti', cursive;
+
+}
+.dropdown {
+    display: flex;
+    gap: 30px;
+    
+
+  }
+  
+  .dropdown img{
+    width:120px;
+    height:120px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow:inherit;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    margin:50px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    /* padding: 5px; */
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  
+  .body{background-color: rgb(44, 43, 43);
+    margin: 10px;
+}
+
+/* .review{
+    width:100%;
+    font-size:10px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00A4BD;
+    border-radius: 2px;
+     */
+.blink{
+    width:100%;
+}
+.main{
+    display: flex;
+    gap: 100px;
+    color: white ;
+    font-size: small;
+}
+img{
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.first{
+    border-right: 2px solid;
+}
+.second{
+    border-right: 2px solid;
+}
+.main2{
+    display: flex;
+    gap: 300px;
+    color: white;
+    
+}
+.fourth{
+    margin-left:200 px ;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+}
+.img3{
+    height: 30px;
+    width: 30px;
+}
+.img4{
+    height: 30px;
+    width: 30px;
+}
+.img5{
+    height: 50px;
+    width: 220px;
+}
+.img6{
+    height: 20px;
+    width: 20px;
+}
+.img7{
+    height: 20px;
+    width: 20px;
+}
+.last{
+    
+    color: white;
+}
+.img8{
+    height: 100px;
+    width: 150px;
+}
+.box{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+    color: white;
+    
+
+}
+.img9{
+    height: 20px;
+    width: 20px;
+    
+    
+}
+.line{
+    text-align: center;
+}
+
+.flower-pattern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    float: inline-end;
+}
+
+.flower-pattern img {
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    margin: 0.83rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.flower-pattern img:nth-child(1) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(2) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(3) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(4) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(5) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(6) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(7) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(8) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(9) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(10) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(11) { transform: rotate(0deg) translate(50%); }
+.flower-pattern img:nth-child(12) { transform: rotate(0deg) translate(50%); }
+
+.trending{
+    display: flex;
+    justify-content: space-around;
+    }
+    .pan{
+        border-radius: 20px;
+        border:pink solid 3px;
+    }
+    .trend{
+        text-align: center;
+
+        color: rgb(231, 128, 217);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .last1{
+        border: solid purple 4px;
+        background-color: rgba(216, 112, 147, 0.265);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        font-family: Calligraffitti Ephesis;
+        font-size: large;
+        color: rgb(86, 23, 56);
+    }
+    .about{
+        font-size: large;
+        font-family: Calligraffitti; 
+    }
